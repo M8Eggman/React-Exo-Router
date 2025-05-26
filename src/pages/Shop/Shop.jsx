@@ -54,7 +54,7 @@ export default function Shop(props) {
                       <span className="placeholder col-6" />
                       <span className="placeholder col-8" />
                     </p>
-                    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true" href="#" tabIndex={-1} />
+                    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true" href="#" />
                   </div>
                 </article>
               ))}
