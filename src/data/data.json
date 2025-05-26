@@ -3,63 +3,72 @@
     "id": 1,
     "title": "Ordinateur Portable Ultrabook",
     "description": "Léger, puissant et parfait pour le travail nomade.",
+    "longDescription": "Cet ultrabook combine portabilité et performances avancées grâce à son processeur dernière génération et son écran haute résolution. Idéal pour les professionnels en déplacement qui ont besoin d'un appareil fiable et performant toute la journée.",
     "img": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "price": 999.99
+    "price": 999
   },
   {
     "id": 2,
     "title": "Casque Bluetooth à Réduction de Bruit",
     "description": "Une immersion totale grâce à l'annulation active du bruit.",
+    "longDescription": "Profitez d'un son cristallin et d'une isolation phonique efficace avec ce casque Bluetooth à réduction active du bruit. Sa batterie longue durée vous permet de l'utiliser toute la journée, et son confort est optimisé pour les longues sessions d’écoute.",
     "img": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
-    "price": 149.99
+    "price": 149
   },
   {
     "id": 3,
     "title": "Smartphone 5G Haut de Gamme",
     "description": "Performance rapide avec écran OLED et grande autonomie.",
+    "longDescription": "Découvrez un smartphone équipé d’un écran OLED vibrant, d’une connectivité 5G ultra-rapide et d’une batterie capable de tenir toute la journée. Parfait pour les utilisateurs exigeants qui veulent le meilleur de la technologie mobile.",
     "img": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
-    "price": 799.99
+    "price": 799
   },
   {
     "id": 4,
     "title": "Montre Connectée Fitness",
     "description": "Suivi de la santé, des entraînements et des notifications.",
+    "longDescription": "Cette montre connectée vous accompagne dans toutes vos activités sportives en suivant votre rythme cardiaque, vos calories brûlées, et en vous envoyant des notifications importantes directement à votre poignet. Un coach personnel à portée de main.",
     "img": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
-    "price": 199.99
+    "price": 199
   },
   {
     "id": 5,
     "title": "Caméra de Sécurité Intelligente",
     "description": "Surveillance HD avec détection de mouvement et vision nocturne.",
+    "longDescription": "Assurez la sécurité de votre domicile grâce à cette caméra intelligente, offrant une image HD claire, une détection de mouvement précise et une vision nocturne performante pour une surveillance 24/7 en toute sérénité.",
     "img": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
-    "price": 129.99
+    "price": 129
   },
   {
     "id": 6,
     "title": "Tablette Graphique pour Créateurs",
     "description": "Stylet précis et surface active idéale pour le dessin numérique.",
+    "longDescription": "Améliorez votre créativité avec cette tablette graphique dotée d’un stylet sensible à la pression et d’une surface de dessin réactive. Parfaite pour les artistes, designers et illustrateurs souhaitant un outil professionnel accessible.",
     "img": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg",
-    "price": 349.99
+    "price": 349
   },
   {
     "id": 7,
     "title": "Enceinte Portable Étanche",
     "description": "Son puissant dans un format compact, idéale pour l’extérieur.",
+    "longDescription": "Emmenez votre musique partout avec cette enceinte portable résistante à l’eau. Son son puissant et clair vous accompagne lors de vos sorties, à la plage ou en randonnée, avec une autonomie longue durée et une connectivité Bluetooth fiable.",
     "img": "https://images.pexels.com/photos/3394651/pexels-photo-3394651.jpeg",
-    "price": 89.99
+    "price": 99
   },
   {
     "id": 8,
     "title": "Clavier Mécanique RGB",
     "description": "Confort de frappe et rétroéclairage personnalisable.",
+    "longDescription": "Optimisez votre expérience de frappe avec ce clavier mécanique équipé de switches réactifs et d’un rétroéclairage RGB personnalisable. Idéal pour les gamers et les professionnels qui passent beaucoup de temps au clavier.",
     "img": "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg",
-    "price": 129.99
+    "price": 139
   },
   {
     "id": 9,
     "title": "Chargeur Sans Fil Rapide",
     "description": "Rechargez vos appareils compatibles en toute simplicité.",
+    "longDescription": "Simplifiez votre recharge avec ce chargeur sans fil rapide, compatible avec tous les appareils Qi. Son design compact et élégant s’intègre parfaitement sur votre bureau ou votre table de nuit.",
     "img": "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg",
-    "price": 39.99
+    "price": 49
   }
 ]

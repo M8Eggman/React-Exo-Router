@@ -1,0 +1,41 @@
+.details {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detailsCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+.detailsImg {
+  flex: 1 1 300px;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.detailsInfo {
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detailsInfo h1 {
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+.detailsDescription {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+.detailsPrice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+}
