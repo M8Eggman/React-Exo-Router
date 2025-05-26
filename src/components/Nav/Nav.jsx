@@ -6,7 +6,7 @@ export default function Nav() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand">
+          <Link to="/React-Exo-Router/" className="navbar-brand">
             Navbar
           </Link>
           <button
@@ -22,17 +22,17 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/React-Exo-Router/" className="nav-link">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Shop" className="nav-link">
+                <Link to="/React-Exo-Router/Shop" className="nav-link">
                   Shop
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Contact" className="nav-link">
+                <Link to="/React-Exo-Router/Contact" className="nav-link">
                   Contact
                 </Link>
               </li>
