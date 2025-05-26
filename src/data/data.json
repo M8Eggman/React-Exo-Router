@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Ordinateur Portable Ultrabook",
+    "description": "Léger, puissant et parfait pour le travail nomade.",
+    "img": "https://images.pexels.com/photos/18105/pexels-photo.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Casque Bluetooth à Réduction de Bruit",
+    "description": "Une immersion totale grâce à l'annulation active du bruit.",
+    "img": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Smartphone 5G Haut de Gamme",
+    "description": "Performance rapide avec écran OLED et grande autonomie.",
+    "img": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Montre Connectée Fitness",
+    "description": "Suivi de la santé, des entraînements et des notifications.",
+    "img": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Caméra de Sécurité Intelligente",
+    "description": "Surveillance HD avec détection de mouvement et vision nocturne.",
+    "img": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Tablette Graphique pour Créateurs",
+    "description": "Stylet précis et surface active idéale pour le dessin numérique.",
+    "img": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Enceinte Portable Étanche",
+    "description": "Son puissant dans un format compact, idéale pour l’extérieur.",
+    "img": "https://images.pexels.com/photos/3394651/pexels-photo-3394651.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Clavier Mécanique RGB",
+    "description": "Confort de frappe et rétroéclairage personnalisable.",
+    "img": "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Chargeur Sans Fil Rapide",
+    "description": "Rechargez vos appareils compatibles en toute simplicité.",
+    "img": "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg"
+  }
+]
