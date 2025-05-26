@@ -1,0 +1,65 @@
+.contact {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact h1 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+  color: #007bff;
+  font-weight: 700;
+}
+.contactForm label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+  resize: none;
+}
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+.contactForm textarea {
+  min-height: 120px;
+}
+.btnSubmit {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+.btnSubmit:hover {
+  background-color: #0056b3;
+}
+.contact p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
