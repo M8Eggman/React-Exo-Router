@@ -4,7 +4,7 @@
   font-weight: 700;
   font-size: 2rem;
   color: #222;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .shop {
   display: grid;
@@ -83,5 +83,3 @@
   border-radius: 0;
   margin-bottom: 0.75rem;
 }
-
-
