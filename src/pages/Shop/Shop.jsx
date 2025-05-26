@@ -17,41 +17,46 @@ export default function Shop() {
   return (
     <>
       <Nav />
-      <div className="shop">
-        {product
-          ? product.map((element) => (
-              <div key={element.id} className="card" style={{ width: "18rem" }}>
-                <div className="card-img-top" style={{ height: "12rem", width: "18rem", overflow: "hidden" }}>
-                  <img src={element.img} style={{ width: "18rem" }} alt="..." />
+      <section className="sectionShop">
+        <h2>Shop</h2>
+        <div className="shop">
+          {product
+            ? product.map((element) => (
+                <div key={element.id} className="card" style={{ width: "18rem" }}>
+                  <div className="card-price">
+                    <p>{element.price}€</p>
+                  </div>
+                  <div className="card-img-top" style={{ height: "12rem", width: "18rem", overflow: "hidden" }}>
+                    <img src={element.img} style={{ width: "18rem" }} alt="..." />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">{element.title}</h5>
+                    <p className="card-text">{element.description}</p>
+                    <Link to={`/Shop/${element.id}`} className="btn btn-primary">
+                      Voir Le Produit
+                    </Link>
+                  </div>
                 </div>
-
-                <div className="card-body">
-                  <h5 className="card-title">{element.title}</h5>
-                  <p className="card-text">{element.description}</p>
-                  <Link to={`/Shop/${element.id}`} className="btn btn-primary">
-                    Voir Le Produit
-                  </Link>
+              ))
+            : Array.from({ length: 3 }).map((_, index) => (
+                <div key={index} className="card" aria-hidden="true" style={{ width: "18rem" }}>
+                  <div className="card-body">
+                    <h5 className="card-title placeholder-glow">
+                      <span className="placeholder col-6" />
+                    </h5>
+                    <p className="card-text placeholder-glow">
+                      <span className="placeholder col-7" />
+                      <span className="placeholder col-4" />
+                      <span className="placeholder col-4" />
+                      <span className="placeholder col-6" />
+                      <span className="placeholder col-8" />
+                    </p>
+                    <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true" />
+                  </div>
                 </div>
-              </div>
-            ))
-          : Array.from({ length: 3 }).map((_, index) => (
-              <div key={index} className="card" aria-hidden="true" style={{ width: "18rem" }}>
-                <div className="card-body">
-                  <h5 className="card-title placeholder-glow">
-                    <span className="placeholder col-6" />
-                  </h5>
-                  <p className="card-text placeholder-glow">
-                    <span className="placeholder col-7" />
-                    <span className="placeholder col-4" />
-                    <span className="placeholder col-4" />
-                    <span className="placeholder col-6" />
-                    <span className="placeholder col-8" />
-                  </p>
-                  <a className="btn btn-primary disabled placeholder col-6" aria-disabled="true" />
-                </div>
-              </div>
-            ))}
-      </div>
+              ))}
+        </div>
+      </section>
     </>
   );
 }

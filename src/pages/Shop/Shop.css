@@ -1,0 +1,22 @@
+.sectionShop h2 {
+  margin-block: 25px;
+  text-align: center;
+}
+.shop {
+  display: grid;
+  grid-template-columns: repeat(3, 18rem);
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 10px;
+}
+.card-price p {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
