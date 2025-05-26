@@ -1,0 +1,20 @@
+.erreur {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.erreur h1 {
+  font-size: 6rem;
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+.erreur p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+.erreur .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
