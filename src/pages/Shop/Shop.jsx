@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 import Nav from "../../components/Nav/Nav";
 import "./Shop.css";
 import { Link } from "react-router-dom";
-import dataJSON from "../../data/data.json";
 
-export default function Shop() {
+export default function Shop(props) {
   const [product, setProduct] = useState(0);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setProduct(dataJSON);
+      setProduct(props.data);
     }, 2000);
     return () => clearTimeout(timeout);
   }, []);
