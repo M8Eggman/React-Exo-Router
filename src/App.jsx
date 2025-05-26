@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/React-Exo-Router/Shop" element={<Shop data={data} />} />
         <Route path="/React-Exo-Router/Shop/:id" element={<Details data={data} />} />
         <Route path="/React-Exo-Router/Contact" element={<Contact />} />
-        <Route path="*" element={<Erreur />} />
+        <Route path="/React-Exo-Router/*" element={<Erreur />} />
       </Routes>
     </>
   );
