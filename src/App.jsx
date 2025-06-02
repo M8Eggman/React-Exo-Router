@@ -11,11 +11,11 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/React-Exo-Router" element={<Home />} />
-        <Route path="/React-Exo-Router/Shop" element={<Shop data={data} />} />
-        <Route path="/React-Exo-Router/Shop/:id" element={<Details data={data} />} />
-        <Route path="/React-Exo-Router/Contact" element={<Contact />} />
-        <Route path="/React-Exo-Router/*" element={<Erreur />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Shop" element={<Shop data={data} />} />
+        <Route path="/Shop/:id" element={<Details data={data} />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<Erreur />} />
       </Routes>
     </>
   );
