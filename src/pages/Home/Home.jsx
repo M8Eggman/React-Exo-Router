@@ -10,7 +10,7 @@ export default function Home() {
         <div className="homeBody">
           <h1>Bienvenue sur TechShop</h1>
           <p>Découvrez notre sélection de produits tech innovants et performants.</p>
-          <Link to="/React-Exo-Router/Shop" className="btn-shop">
+          <Link to="/Shop" className="btn-shop">
             Visiter la boutique
           </Link>
         </div>
