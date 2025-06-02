@@ -31,7 +31,7 @@ export default function Shop(props) {
                   <div className="card-body">
                     <h5 className="card-title">{element.title}</h5>
                     <p className="card-text">{element.description}</p>
-                    <Link to={`/React-Exo-Router/Shop/${element.id}`} className="btn btn-primary" aria-label={`Voir le produit ${element.title}`}>
+                    <Link to={`/Shop/${element.id}`} className="btn btn-primary" aria-label={`Voir le produit ${element.title}`}>
                       Voir Le Produit
                     </Link>
                   </div>
